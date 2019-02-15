@@ -24,7 +24,7 @@ public class RootResource {
     @GET
     public Response hello() {
         LOGGER.info("RootResource received a request.");
-        
+
         return Response.ok("Hello, this is " + appName).build();
     }
 
